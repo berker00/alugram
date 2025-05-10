@@ -1,0 +1,54 @@
+/* Özel stil değişiklikleri */
+:root {
+  --accent-bg: #203977; /* Orijinal: #bff747 */
+}
+
+/* İkon kutusu hover efekti */
+.aximo-iconbox-wrap:hover {
+  background-color: var(--accent-bg);
+  box-shadow: 4px 4px 0 0 var(--heading-color);
+}
+
+/* Hover durumunda yazı ve ikonların rengini beyaz yapma */
+.aximo-iconbox-wrap:hover .aximo-iconbox-icon i {
+  color: white;
+}
+
+.aximo-iconbox-wrap:hover .aximo-iconbox-data h3,
+.aximo-iconbox-wrap:hover .aximo-iconbox-data p {
+  color: white !important;
+}
+
+/* Accordion açıldığında yazıların beyaz olması */
+.aximo-accordion-item.open .aximo-accordion-header button {
+  color: white !important;
+}
+
+.aximo-accordion-item.open .accordion-body {
+  color: white !important;
+}
+
+.accordion-item.active .accordion-button,
+.accordion-button:not(.collapsed),
+.aximo-accordion-wrap .accordion-item.open .accordion-button {
+  color: white !important;
+}
+
+.accordion-item.open .accordion-body,
+.accordion-collapse.show .accordion-body,
+.aximo-accordion-wrap .accordion-item.open .accordion-body {
+  color: white !important;
+}
+
+/* Diğer accent-bg değişkenini kullanan yerler için */
+.aximo-call-btn {
+  background-color: var(--accent-bg);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--accent-bg);
+}
+
+.aximo-default-btn.aximo-header-btn:hover {
+  background-color: var(--accent-bg);
+} 
