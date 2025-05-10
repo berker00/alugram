@@ -4,6 +4,12 @@ import Project3Img from "../public/images/v1/project3.png";
 import Project4Img from "../public/images/v1/project4.png";
 import Project5Img from "../public/images/v1/project5.png";
 import Project6Img from "../public/images/v1/project6.png";
+import Project1BigImg from "../public/images/v1/p_single1.png";
+import Project2BigImg from "../public/images/v1/p_single2.png";
+import Project3BigImg from "../public/images/v1/p_single3.png";
+import Project4BigImg from "../public/images/v1/p_single4.png";
+import Project5BigImg from "../public/images/v1/p_single5.png";
+import Project6BigImg from "../public/images/v1/p_single6.png";
 import { safeRandomUUID } from "@/utils/generateId";
 
 // This is example data - you can replace it with your own data
@@ -13,20 +19,29 @@ export const projectsData = [
     title: "Graphic Design",
     description: "",
     img: Project6Img,
+    bigimg:Project1BigImg,
     content: {
-      fullDescription: "Our graphic design services provide innovative visual solutions tailored to your brand's specific needs. We focus on creating impactful designs that communicate your message effectively.",
+      fullDescription: "Günümüzün hızlı tempolu ve görsel odaklı dünyasında, grafik tasarım artık isteğe bağlı değil, zorunludur. Logodan broşüre, sosyal medya görselinden ambalaja kadar, markanızın mesajını, değerlerini ve kimliğini çarpıcı görsellerle iletmek sanatıdır. Etkili grafik tasarım olmadan, işletmeler kalabalık pazarda dikkat çekmekte ve öne çıkmakta zorlanır. Alugram olarak, markanızı yükseltmek ve hedef kitlenizle bağlantı kurmak için bu gücü kullanıyoruz.",
       steps: [
         {
-          title: "Concept Development",
-          text: "We begin by understanding your brand vision and developing conceptual designs that align with your goals.",
+          title: "Keşif",
+          text: "Markanızı, hedeflerinizi ve hedef kitlenizi anlamakla başlıyoruz. Bu temel adım, tasarımlarımızın vizyonunuzla uyumlu olmasını sağlar",
         },
         {
-          title: "Creative Execution",
-          text: "Our designers craft each element with precision, ensuring every detail contributes to the overall message.",
+          title: "Konsept Geliştirme",
+          text: "Ekibimiz, markanıza özel yaratıcı yönleri keşfederek ilk fikirleri beyin fırtınası yapar ve çizer.",
         },
         {
-          title: "Refinement and Delivery",
-          text: "We refine based on feedback until the design perfectly represents your brand's voice and values.",
+          title: "Tasarım Uygulama",
+          text: "Endüstri lideri araçlar kullanarak, her detaya odaklanarak görselleri hassasiyetle oluşturuyoruz.",
+        },
+        {
+          title: "İşbirliği ve Revizyon",
+          text: "Sizinle yakın çalışarak, geri bildirimlerinize dayanarak tasarımı mükemmelleştiriyoruz.",
+        },
+        {
+          title: "Teslimat",
+          text: "Son tasarımları, hemen kullanıma hazır tüm gerekli formatlarda sağlıyoruz.",
         },
       ]
     }
@@ -36,20 +51,29 @@ export const projectsData = [
     title: "Video Production",
     description: "",
     img: Project2Img,
+    bigimg:Project2BigImg,
     content: {
-      fullDescription: "Our video production team creates compelling visual stories that engage viewers and deliver your message with impact. From concept to final edit, we handle every aspect of the production process.",
+      fullDescription: "Video tüketiminin ön planda olduğu günümüzde, yüksek kaliteli video prodüksiyonu markanızın hikayesini anlatmanın en etkili yoludur. [Şirket Adı] olarak, yeni nesil sosyal medya içerikleri, video montaj derlemeleri ve her türlü slideshow ile izleyicilerinizle güçlü bir bağ kurmanızı sağlıyoruz. En son video düzenleme teknolojilerini kullanarak, markanızı modern bir şekilde öne çıkarıyoruz.",
       steps: [
         {
-          title: "Story Development",
-          text: "We develop a narrative that resonates with your audience and effectively communicates your message.",
+          title: "Ön Prodüksiyon",
+          text: "Hedeflerinizle uyumlu bir senaryo ve storyboard geliştirmek için işbirliği yapıyoruz.",
         },
         {
-          title: "Professional Production",
-          text: "Using state-of-the-art equipment, we capture high-quality footage that brings your story to life.",
+          title: "Prodüksiyon",
+          text: "Profesyonel ekipmanlar kullanarak çarpıcı görseller ve net sesler yakalıyoruz.",
         },
         {
-          title: "Post-Production Excellence",
-          text: "Our editing team creates a polished final product that exceeds expectations and achieves your goals.",
+          title: "Post Prodüksiyon",
+          text: "Kurgu, efektler ve ses düzenlemeleriyle videoyu cilalayarak son haline getiriyoruz.",
+        },
+        {
+          title: "İnceleme",
+          text: "Geri bildirimlerinizi alarak videonun beklentilerinizi karşıladığından emin oluyoruz.",
+        },
+        {
+          title: "Teslimat",
+          text: " Son videoyu tercih ettiğiniz formatlarda sunuyoruz.",
         },
       ]
     }
@@ -59,20 +83,29 @@ export const projectsData = [
     title: "WEB Site Design",
     description: "",
     img: Project1Img,
+    bigimg:Project3BigImg,
     content: {
-      fullDescription: "We create beautiful, functional websites that provide exceptional user experiences across all devices. Our web design combines aesthetics with performance to help your business succeed online.",
+      fullDescription: "Dijital çağda, web siteniz işinizin dünyaya açılan yüzüdür. İyi tasarlanmış bir site, görsel olarak çekici, fonksiyonel ve kullanıcı dostu olmalıdır.Web siteniz, markanızın dijital dünyadaki yüzüdür. Yazılım sektörü hızla gelişiyor ve eski, basit web siteleri artık yeterli olmuyor. Alugram olarak, en gelişmiş yazılım dilleriyle markanıza uyumlu, modern ve şık web siteleri tasarlıyoruz. Aynı zamanda, sitenizi kolayca yönetebilmeniz için bir yönetici paneli sunuyoruz. Size en yaratıcı ve işlevsel web sitesini hazırlayarak markanızı öne çıkarıyoruz",
       steps: [
         {
-          title: "UX Research & Planning",
-          text: "We analyze user needs and behavior to create websites that deliver intuitive, satisfying experiences.",
+          title: "Planlama",
+          text: "Hedeflerinizi ve izleyici ihtiyaçlarınızı değerlendiririz.",
         },
         {
-          title: "Responsive Design",
-          text: "Our designs adapt seamlessly to all screen sizes, ensuring consistent experiences across all devices.",
+          title: "Tasarım",
+          text: "Onay için tel çerçeveler ve mockup'lar oluştururuz.",
         },
         {
-          title: "Performance Optimization",
-          text: "We build fast-loading, efficient websites that keep users engaged and improve conversion rates.",
+          title: "Geliştirme",
+          text: "En iyi uygulamalarla siteyi inşa ederiz.",
+        },
+        {
+          title: "Test",
+          text: "Tüm cihazlarda kusursuz performans sağlarız.",
+        },
+        {
+          title: "Lansman",
+          text: "Tamamen işlevsel bir web sitesi sunarız.",
         },
       ]
     }
@@ -82,20 +115,29 @@ export const projectsData = [
     title: "Custom Design",
     description: "",
     img: Project5Img,
+    bigimg:Project4BigImg,
     content: {
-      fullDescription: "Our custom design services address your specific challenges with unique, innovative solutions. We work closely with you to create designs that perfectly match your vision and requirements.",
+      fullDescription: "Standart seçenekler yetersiz kaldığında, özel tasarım tam olarak ihtiyacınız olanı sunar. Özel tasarım, tüm hizmetlerimizin harmanlandığı bir kategoridir ve size tamamen kişiselleştirilmiş çözümler sunar. Video logo tasarımlarından özel isteklerinize kadar her fikri hayata geçiriyoruz. Alugram olarak, ne isterseniz bize anlatın; biz onu sizin için tasarlayalım, her formatta sunalım ve tam istediğiniz şekilde hayata geçirelim.",
       steps: [
         {
-          title: "Requirement Analysis",
-          text: "We thoroughly understand your specific needs before starting the design process.",
+          title: "Danışmanlık",
+          text: "Gereksinimlerinizi ve hedeflerinizi tanımlarız.",
         },
         {
-          title: "Custom Solution Development",
-          text: "Our team creates bespoke designs tailored specifically to your unique requirements.",
+          title: "Konsept Geliştirme",
+          text: "Özel tasarım önerileri oluştururuz.",
         },
         {
-          title: "Implementation & Support",
-          text: "We not only deliver your custom design but provide ongoing support to ensure long-term success.",
+          title: "İyileştirme",
+          text: "Geri bildirimlerinize dayanarak ayarlamalar yaparız.",
+        },
+        {
+          title: "Uygulama",
+          text: "Özel çözümü özenle üretiriz.",
+        },
+        {
+          title: "Teslimat",
+          text: "Son ürünü spesifikasyonlarınıza göre sunarız.",
         },
       ]
     }
@@ -105,20 +147,29 @@ export const projectsData = [
     title: "Brand Coordination",
     description: "",
     img: Project3Img,
+    bigimg:Project5BigImg,
     content: {
-      fullDescription: "We ensure your brand communicates consistently across all platforms and touchpoints. Our brand coordination services help establish and maintain a strong, recognizable brand identity.",
+      fullDescription: "Birleşik bir marka kimliği, tanınma ve güven için hayati öneme sahiptir. Marka koordinasyonu, logolardan ambalajlara, mesajlardan görsellere kadar her temas noktasının tutarlı bir hikaye anlatmasını sağlar. Markanızın sosyal medyadaki varlığı, günümüz dünyasında vazgeçilmez bir gerekliliktir. Sosyal medya olmadan markalar rekabette ayakta kalamaz; bu, markanız için bir zorunluluktur. Alugram olarak, renk tonlarından logonuza kadar her detayı titizlikle ele alıyor, markanızı güvenilir ve ön planda bir imajla buluşturuyoruz.",
       steps: [
         {
-          title: "Brand Audit",
-          text: "We analyze your current brand elements and identify opportunities for improved consistency.",
+          title: "Analiz",
+          text: "Markanızın değerlerini, misyonunu ve hedef kitlesini inceliyoruz.",
         },
         {
-          title: "Strategy Development",
-          text: "Our team creates a comprehensive plan for coordinating your brand across all channels.",
+          title: "Yönerge Oluşturma",
+          text: "Görseller ve ton için kapsamlı marka yönergeleri geliştiriyoruz..",
         },
         {
-          title: "Implementation Guidelines",
-          text: "We provide clear guidelines to ensure consistent application of your brand elements.",
+          title: "Uygulama",
+          text: "Bu standartları tüm varlıklarınızda uyguluyoruz.",
+        },
+        {
+          title: "İnceleme",
+          text: "Geri bildirimlerinizle tutarlılığı sağlıyoruz.",
+        },
+        {
+          title: "Destek",
+          text: " Marka uyumunu sürdürmek için sürekli rehberlik sunuyoruz.",
         },
       ]
     }
@@ -128,20 +179,29 @@ export const projectsData = [
     title: "Product Design",
     description: "",
     img: Project4Img,
+    bigimg:Project6BigImg,
     content: {
-      fullDescription: "Our product design services focus on creating items that are both beautiful and functional. We combine aesthetics with usability to develop products that delight users and meet business objectives.",
+      fullDescription: "Harika ürün tasarımı, fikirleri kullanıcıların sevdiği çözümlere dönüştürür, ister fiziksel bir ürün ister dijital bir arayüz olsun. Çağımızda ürün tasarımı, bir ürünün başarısını belirleyen en önemli unsurlardan biridir. İnsanlar artık tasarıma büyük önem veriyor; çekici ve işlevsel bir tasarım, ürünü al beni dedirtecek hale getirir ve markanızı yükseltir. Alugram olarak, ürünlerinize harika mockup’lar ve etkili tasarım yeteneklerimizle ön plana çıkan dizaynlar sunuyoruz.",
       steps: [
         {
-          title: "User-Centered Research",
-          text: "We begin by understanding the end-users and their needs to inform our design decisions.",
+          title: "Araştırma",
+          text: "Kullanıcılarınızın ihtiyaçlarını ve zorluklarını inceliyoruz.",
         },
         {
-          title: "Prototyping & Testing",
-          text: "We develop and test prototypes to refine the design and ensure it meets all requirements.",
+          title: "Fikir Geliştirme",
+          text: "Potansiyel çözümler için beyin fırtınası yapar ve çizeriz.",
         },
         {
-          title: "Final Design & Specifications",
-          text: "Our team delivers detailed specifications for manufacturing or implementation.",
+          title: "Prototipleme",
+          text: "Kullanılabilirlik için prototipler oluşturur ve test ederiz.",
+        },
+        {
+          title: "İyileştirme",
+          text: "Geri bildirim ve testlere dayanarak iterasyon yaparız.",
+        },
+        {
+          title: "Sonlandırma",
+          text: "Lansmana hazır bir ürün tasarımı sunarız.",
         },
       ]
     }
@@ -155,4 +215,4 @@ export function useProjects() {
 export function useProjectById(id) {
   const project = projectsData.find(p => p.id === id);
   return { project };
-} 
+}

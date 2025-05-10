@@ -28,7 +28,7 @@ function PortfolioDetails({ projectId }) {
 		<div className="aximo-project-single-section">
 			<div className="container">
 				<FadeInUp className="aximo-project-single-thumb">
-					<Image src={project.img} alt={project.title} />
+					<Image src={project.bigimg} alt={project.title} />
 				</FadeInUp>
 
 				<div className="aximo-project-single-wrap">
@@ -43,7 +43,7 @@ function PortfolioDetails({ projectId }) {
 								<h2>
 									{project.title}
 									<span className="aximo-title-animation">
-										Project Details
+										
 										<span className="aximo-title-icon">
 											<Image src={Star2Img} alt="star" />
 										</span>
