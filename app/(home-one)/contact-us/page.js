@@ -14,7 +14,7 @@ function ContactUs() {
 	};
 	return (
 		<>
-			<BreadCrumb title="Contact Us" />
+			<BreadCrumb title="İletişim" />
 			<ContactForm />
 			<ContactInfo />
 			<GoogleMap location={location} />

@@ -30,7 +30,7 @@ function Projects() {
 	const { projects } = useProjects();
 
 	return (
-		<div className="section dark-bg aximo-section-padding">
+		<div id="projects" className="section dark-bg aximo-section-padding">
 			<div className="container">
 				<div className="aximo-section-title center light">
 					<h2>

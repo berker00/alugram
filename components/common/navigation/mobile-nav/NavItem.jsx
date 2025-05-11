@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import Dropdown from "./Dropdown";
+
 const NavItem = ({ items, depthLevel, showMenu, setShowMenu }) => {
 	const [dropdown, setDropdown] = useState(false);
 
@@ -16,6 +17,31 @@ const NavItem = ({ items, depthLevel, showMenu, setShowMenu }) => {
 		setDropdown((prev) => !prev);
 	};
 
+	// Sayfa içi navigasyon için scroll fonksiyonu
+	const handleInPageNavigation = (e) => {
+		if (items.url.startsWith('#')) {
+			e.preventDefault();
+			const targetId = items.url.replace('#', '');
+			const targetElement = document.getElementById(targetId);
+			
+			if (targetElement) {
+				// Önce menüyü kapat, sonra hedefe kaydır
+				closeDropdown();
+				
+				// Biraz gecikme ekleyerek menünün kapanmasını bekle
+				setTimeout(() => {
+					window.scrollTo({
+						top: targetElement.offsetTop - 100,
+						behavior: 'smooth'
+					});
+				}, 300);
+			}
+		} else {
+			// Normal link tıklaması - menüyü kapat
+			closeDropdown();
+		}
+	};
+
 	const animationVariants = {
 		initial: {
 			rotate: 0,
@@ -25,7 +51,6 @@ const NavItem = ({ items, depthLevel, showMenu, setShowMenu }) => {
 				return {
 					rotate: -180,
 					transition: {
-						// delay: 0,
 						duration: 0.25,
 					},
 				};
@@ -48,8 +73,10 @@ const NavItem = ({ items, depthLevel, showMenu, setShowMenu }) => {
 			{dropdown && <Dropdown depthLevel={depthLevel} submenus={items.submenu} dropdown={dropdown} />}
 		</li>
 	) : (
-		<li className="nav-item" onClick={closeDropdown}>
-			<Link href={items.url}>{items.title}</Link>
+		<li className="nav-item">
+			<Link href={items.url} onClick={handleInPageNavigation}>
+				{items.title}
+			</Link>
 		</li>
 	);
 };

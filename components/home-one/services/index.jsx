@@ -5,7 +5,7 @@ import ServiceCard from "./ServiceCard";
 
 function Services({ services }) {
 	return (
-		<div className="section aximo-section-padding4">
+		<div id="services" className="section aximo-section-padding4">
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>

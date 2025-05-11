@@ -38,7 +38,7 @@ function FooterContent() {
 			<div className="aximo-social-icon social-large">
 				<ul>
 					<li>
-						<a href="https://www.instagram.com/" target="_blank">
+						<a href="https://www.instagram.com/alugramcom" target="_blank">
 							<i className="icon-instagram"></i>
 						</a>
 					</li>

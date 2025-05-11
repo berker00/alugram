@@ -22,7 +22,7 @@ function ContactForm() {
 						<div className="aximo-section-title">
 							<h2>
 								<span className="aximo-title-animation">
-									İletişim Bilgilerimiz
+									Bizimle iletişime geçin
 									<span className="aximo-title-icon">
 										<Image src={Star2Img} alt="Star" />
 									</span>
@@ -43,9 +43,9 @@ function ContactForm() {
 						<div className="aximo-main-form">
 							<form onSubmit={handleSubmit(submitForm)}>
 								<div className="aximo-main-field">
-									<Field label="Your Name" error={errors.name}>
+									<Field label="Adınız" error={errors.name}>
 										<input
-											{...register("name", { required: "Name is required." })}
+											{...register("name", { required: "Burası boş bırakılamaz." })}
 											type="name"
 											name="name"
 											id="name"
@@ -53,9 +53,9 @@ function ContactForm() {
 									</Field>
 								</div>
 								<div className="aximo-main-field">
-									<Field label="Enter email address" error={errors.email}>
+									<Field label="Email Adresiniz" error={errors.email}>
 										<input
-											{...register("email", { required: "Email is required." })}
+											{...register("email", { required: "Email Adresiniz gereklidir." })}
 											type="email"
 											name="email"
 											id="email"
@@ -63,9 +63,9 @@ function ContactForm() {
 									</Field>
 								</div>
 								<div className="aximo-main-field">
-									<Field label="Enter Phone Number" error={errors.phone}>
+									<Field label="Telefon Numaranız" error={errors.phone}>
 										<input
-											{...register("phone", { required: "Phone is required." })}
+											{...register("phone", { required: "Telefon Numarası gereklidir." })}
 											type="phone"
 											name="phone"
 											id="phone"
@@ -73,11 +73,11 @@ function ContactForm() {
 									</Field>
 								</div>
 								<div className="aximo-main-field">
-									<label>Write your message here...</label>
+									<label>Mesajınızı buraya yazınız...</label>
 									<textarea name="textarea"></textarea>
 								</div>
 								<button id="aximo-main-btn" type="submit">
-									Send Message
+									Mesaj Gönder
 								</button>
 							</form>
 						</div>
