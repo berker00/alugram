@@ -12,6 +12,12 @@ import Team1Img from "@/public/images/team/team1.png";
 import Team2Img from "@/public/images/team/team2.png";
 import Team3Img from "@/public/images/team/team3.png";
 import Team4Img from "@/public/images/team/team4.png";
+import Team5Img from "@/public/images/team/team5.png";
+import Team6Img from "@/public/images/team/team6.png";
+import Team7Img from "@/public/images/team/team7.png";
+import Team8Img from "@/public/images/team/team8.png";
+import Team9Img from "@/public/images/team/team9.png";
+
 
 
 // Helper function to generate simple IDs
@@ -64,75 +70,75 @@ const servicesData = [
 const teamsData = [
 	{
 		id: generateId(),
-		name: "Atlas Software",
-		designation: "",
-		img: Team1Img,
-	},
-	{
-		id: generateId(),
-		name: "Çakır Holding",
-		designation: "",
-		img: Team2Img,
-	},
-	{
-		id: generateId(),
-		name: "OBAL Aluminium",
+		name: "",
 		designation: "",
 		img: Team3Img,
 	},
 	{
 		id: generateId(),
-		name: "Alustar",
+		name: "",
+		designation: "",
+		img: Team9Img,
+	},
+	{
+		id: generateId(),
+		name: "",
+		designation: "",
+		img: Team2Img,
+	},
+	{
+		id: generateId(),
+		name: "",
+		designation: "",
+		img: Team5Img,
+	},
+	{
+		id: generateId(),
+		name: "",
+		designation: "",
+		img: Team8Img,
+	},
+	{
+		id: generateId(),
+		name: "",
+		designation: "",
+		img: Team6Img,
+	},
+	{
+		id: generateId(),
+		name: "",
+		designation: "",
+		img: Team1Img,
+	},
+	{
+		id: generateId(),
+		name: "",
 		designation: "",
 		img: Team4Img,
 	},
 	{
 		id: generateId(),
-		name: "Alufour",
+		name: "",
 		designation: "",
-		img: Team4Img,
-	},
-	{
-		id: generateId(),
-		name: "Alusoft",
-		designation: "",
-		img: Team4Img,
-	},
-	{
-		id: generateId(),
-		name: "Çakıray Yapı",
-		designation: "",
-		img: Team4Img,
-	},
-	{
-		id: generateId(),
-		name: "Çakır Lojistik",
-		designation: "",
-		img: Team4Img,
-	},
-	{
-		id: generateId(),
-		name: "Alumaster",
-		designation: "",
-		img: Team4Img,
+		img: Team7Img,
 	},
 	{
 		id: generateId(),
 		name: "ÇakırGY",
 		designation: "",
-		img: Team4Img,
+		img: Team3Img,
 	},
 	{
 		id: generateId(),
 		name: "Fillab",
 		designation: "",
-		img: Team4Img,
+		img: Team3Img,
 	},
 	{
 		id: generateId(),
 		name: "Filates",
 		designation: "",
-		img: Team4Img,
+		img: Team3Img,
 	},
 
 	
