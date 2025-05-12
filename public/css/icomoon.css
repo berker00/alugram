@@ -135,7 +135,7 @@
 }
 .icon-target:before {
   content: "\e924";
-  color: #ea2050;
+  color: inherit;
 }
 .icon-teamwork:before {
   content: "\e925";

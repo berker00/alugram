@@ -25,8 +25,8 @@ function ContactInfo() {
 								<Image src={Call2Img} alt="Call Img" />
 							</div>
 							<div className="aximo-contact-info-data">
-								<span>Telefon Numaramız</span>
-								<p>+90 533 333 33 33</p>
+								<span>Numaramız</span>
+								<p><a href="tel:(123) 456-7890">(123) 456-7890</a></p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
@@ -37,7 +37,7 @@ function ContactInfo() {
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Email Adresimiz</span>
-								<p>info@alugram.com</p>
+								<p><a href="mailto:info@alugram.com">info@alugram.com</a></p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>

@@ -5,35 +5,35 @@ const faqData = {
 	faq1: [
 		{
 			id: crypto.randomUUID(),
-			title: "What services does agency offer?",
-			text: "Clients often seek to understand the range of design services an agency provides, such as graphic design, web design, branding.",
+			title: "Hangi hizmetleri sunuyorsunuz?",
+			text: "Grafik tasarım, web tasarımı, marka kimliği, video prodüksiyon, ürün tasarımı ve özel tasarım hizmetleri gibi geniş bir yelpazede yaratıcı çözümler sunuyoruz. Ekibimiz, markanızın ihtiyaçlarına özel, yenilikçi ve etkili görsel içerikler üretme konusunda uzmanlaşmıştır. Her projeye, markanızın hikayesini en iyi şekilde anlatacak şekilde yaklaşıyoruz.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "What is your design process like?",
-			text: "Explaining the design agency&apos;s process from initial concept to final delivery helps clients understand what to expect.",
+			title: "Tasarım süreciniz nasıl işliyor?",
+			text: "Tasarım sürecimiz, sizin vizyonunuzu ve hedeflerinizi tam olarak anlamak için detaylı bir keşif aşamasıyla başlar. Ardından, konsept geliştirme, tasarım uygulama ve revizyon aşamalarına geçeriz. Her adımda, sizinle yakın iş birliği içinde çalışarak, projenin her aşamasında geri bildirimlerinizi alır ve tasarımın beklentilerinizi karşıladığından emin oluruz.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How much does design work cost?",
-			text: "The cost of our design services varies depending on the scope of the project. We provide customized quotes after discussing requirements.",
+			title: "Hizmetlerinizin maliyeti nedir?",
+			text: "Hizmetlerimizin maliyeti, projenin kapsamına, karmaşıklığına ve özel gereksinimlerinize bağlı olarak değişir. Her proje benzersizdir, bu nedenle standart bir fiyat listesi sunmak yerine, ihtiyaçlarınızı dinledikten sonra size özel bir teklif hazırlarız. Bu teklif, sunduğumuz kalite ve yaratıcılığı yansıtan, adil ve şeffaf bir fiyatlandırma içerir.",
 		},
 	],
 	faq2: [
 		{
 			id: crypto.randomUUID(),
-			title: "What&apos;s your design process like?",
-			text: "Our design process typically involves discovery, concept development, design, revisions based on feedback, and finalization.",
+			title: "Önceki çalışmalarınızdan örnekler görebilir miyim?",
+			text: "Elbette! Geçmişte tamamladığımız projelerden oluşan portföyümüzü web sitemizde bulabilirsiniz. Bu projeler, grafik tasarımdan video prodüksiyona, web tasarımından özel tasarım çözümlerine kadar uzanan geniş bir yelpazeyi kapsar. Portföyümüz, yaratıcılığımızı ve detaylara verdiğimiz önemi sergiler.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How do you handle user feedback?",
-			text: "We value client feedback and work closely with you to make sure user happy with the final design. We offer a specific number of revisions.",
+			title: "Tipik bir proje ne kadar sürer?",
+			text: "Proje süreleri, projenin türüne ve kapsamına bağlı olarak değişiklik gösterir. Örneğin, basit bir logo tasarımı birkaç gün sürebilirken, kapsamlı bir web sitesi tasarımı veya video prodüksiyon projesi birkaç hafta sürebilir. İlk danışma aşamasında, projenizin gereksinimlerine göre net bir zaman çizelgesi sunarız.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "Can we see samples of your work?",
-			text: "Yes, we're proud to showcase a portfolio of our previous projects. You can find examples of our work on our website or view our portfolio.",
+			title: "Revizyonları ele alıyor musunuz? Kaç revizyon sunuyorsunuz?",
+			text: "Evet, revizyonlar sürecimizin önemli bir parçasıdır. Genellikle, projenin gereksinimlerine bağlı olarak, tasarımın son halini alana kadar belirli sayıda revizyon turu sunarız. Bu, sizin geri bildirimlerinizi dikkate alarak, tasarımın tam olarak beklentilerinizi karşılamasını sağlar.",
 		},
 	],
 };
@@ -43,9 +43,9 @@ function TwoColumnFaq() {
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
-						These FAQs help
+						Sıkça Sorulan Sorular
 						<span className="aximo-title-animation">
-							clients learn about us
+							
 							<span className="aximo-title-icon">
 								<Image src={Star2Img} alt="Star" />
 							</span>

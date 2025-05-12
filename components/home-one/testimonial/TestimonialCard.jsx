@@ -17,16 +17,7 @@ function TestimonialCard({ testimonial: { rating, title, description, author, de
 				<h3>{title}</h3>
 				<p>{description}</p>
 			</div>
-			<div className="aximo-testimonial-author">
-				<div className="aximo-testimonial-author-thumb">
-					<Image src={img} alt={title} />
-				</div>
-				<div className="aximo-testimonial-author-data">
-					<p>
-						{author} <span>{designation}</span>
-					</p>
-				</div>
-			</div>
+
 		</div>
 	);
 }

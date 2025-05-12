@@ -10052,6 +10052,9 @@ a.comment-reply {
 	font-size: 21px;
 	margin-bottom: 0;
 }
+.aximo-contact-info-data p a {
+	color: var(--white-smoke);
+}
 
 .aximo-map-wrap {
 	padding-bottom: 130px;

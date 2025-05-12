@@ -142,7 +142,7 @@ function Accordion() {
 				</h3>
 				<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						Uzman ekibimiz, markanıza özel tasarımlar yaratır. Tüm süreci herdetayıyla titizlikle geliştiriyoruz.
+						Uzman ekibimiz, markanıza özel tasarımlar yaratır. Tüm süreci her detayıyla titizlikle geliştiriyoruz.
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>

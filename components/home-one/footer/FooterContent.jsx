@@ -20,7 +20,7 @@ function FooterContent() {
 			<div className="aximo-info-wrap">
 				<div className="aximo-info">
 					<ul>
-						<li>Give us a call:</li>
+						<li>Bizi Arayın:</li>
 						<li>
 							<a href="tel:(123) 456-7890">(123) 456-7890</a>
 						</li>
@@ -28,9 +28,9 @@ function FooterContent() {
 				</div>
 				<div className="aximo-info">
 					<ul>
-						<li>Send us an email:</li>
+						<li>Bize email gönderin:</li>
 						<li>
-							<a href="mailto:info@mthemeus.com">info@alugram.com</a>
+							<a href="mailto:info@alugram.com">info@alugram.com</a>
 						</li>
 					</ul>
 				</div>
