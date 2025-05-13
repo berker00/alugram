@@ -25,7 +25,7 @@ function HeroContent() {
 			</FadeInStaggerTwoChildren>
 
 			<FadeInStaggerTwoChildren>
-				<Link className="aximo-call-btn" href="/contact-us" style={{ backgroundColor: "#203977" }}>
+				<Link className="aximo-call-btn" href="https://wa.me/905444152841?text=Merhaba%20Bilgi%20alabilir%20miyim?" style={{ backgroundColor: "#203977" }}>
 					Bizimle iletişime geçin <i className="icon-call"></i>
 				</Link>
 				<div className="aximo-hero-shape">

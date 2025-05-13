@@ -22,7 +22,7 @@ function FooterContent() {
 					<ul>
 						<li>Bizi Arayın:</li>
 						<li>
-							<a href="tel:+905444152841">+90 (544) 415 2841</a>
+							<a href="https://wa.me/905444152841">+90 (544) 415 2841</a>
 						</li>
 					</ul>
 				</div>

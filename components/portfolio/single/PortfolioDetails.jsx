@@ -33,11 +33,7 @@ function PortfolioDetails({ projectId }) {
 
 				<div className="aximo-project-single-wrap">
 					<div className="row">
-						<div className="col-lg-4 order-lg-2">
-							<FadeInRight className="aximo-project-single-thumb2 ">
-								<Image src={Single2Img} alt="Single 2" sizes="100vw" />
-							</FadeInRight>
-						</div>
+
 						<div className="col-lg-8">
 							<div className="aximo-default-content m-right-gap">
 								<h2>

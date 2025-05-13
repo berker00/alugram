@@ -26,7 +26,7 @@ function ContactInfo() {
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Numaramız</span>
-								<p><a href="tel:+905444152841">+90 (544) 415 2841</a></p>
+								<p><a href=" https://wa.me/905444152841">+90 (544) 415 2841</a></p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
@@ -48,7 +48,7 @@ function ContactInfo() {
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Ofisimizin Adresi</span>
-								<p>İstanbul</p>
+								<p>İstanbul / KDZ.Ereğli</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
