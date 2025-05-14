@@ -31,6 +31,10 @@ import "../../public/css/custom.css";
 export const metadata = {
 	title: "Alugram || Design Agency",
 	description: "Alugram || Design Agency",
+	icons: {
+		icon: '/favicon.ico',
+		apple: '/apple-icon.png',
+	},
 };
 
 export default function HomeOneLayout({ children }) {
