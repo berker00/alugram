@@ -20,6 +20,7 @@ import Team9Img from "@/public/images/team/team9.png";
 import Team10Img from "@/public/images/team/team10.png";
 import Team11Img from "@/public/images/team/team11.png";
 import Team12Img from "@/public/images/team/team12.png";
+import Team13Img from "@/public/images/team/team13.png";
 
 
 // Helper function to generate simple IDs
@@ -128,7 +129,7 @@ const teamsData = [
 		id: generateId(),
 		name: "",
 		designation: "",
-		img: Team10Img,
+		img: Team13Img,
 	},
 	{
 		id: generateId(),

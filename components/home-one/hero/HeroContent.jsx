@@ -13,7 +13,9 @@ function HeroContent() {
 				<h1>
 					<span className="aximo-title-animation">
 						Alugram
-						<Image src={StarImg} alt="StarImg" />
+						<span className="star-image-container">
+							<Image src={StarImg} alt="StarImg" className="responsive-star-image" />
+						</span>
 					</span>{" "}
 					design studio
 				</h1>
@@ -28,8 +30,8 @@ function HeroContent() {
 				<Link className="aximo-call-btn" href="https://wa.me/905444152841?text=Merhaba%20Bilgi%20alabilir%20miyim?" style={{ backgroundColor: "#203977" }}>
 					Bizimle iletişime geçin <i className="icon-call"></i>
 				</Link>
-				<div className="aximo-hero-shape">
-					<Image src={ShapeImg} alt="ShapeImg" />
+				<div className="aximo-hero-shape responsive-shape-container">
+					<Image src={ShapeImg} alt="ShapeImg" className="responsive-shape-image" />
 				</div>
 			</FadeInStaggerTwoChildren>
 		</FadeInStaggerTwo>

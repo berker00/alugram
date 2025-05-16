@@ -7,7 +7,7 @@ function FooterBottom() {
 		<>
 			<div className="col-lg-4">
 				<div className="aximo-footer-logo">
-					<a href="#">
+					<a href="">
 						<Image 
 							src={LogoWhiteImg} 
 							alt="Alugram Logo" 
