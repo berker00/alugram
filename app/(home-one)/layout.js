@@ -27,8 +27,6 @@ import "../../public/css/main.css";
 import "../../public/css/mobile-nav.css";
 // custom css - benim eklediğim 
 import "../../public/css/custom.css";
-// responsive hero fixes
-import "../../public/css/responsive-hero.css";
 
 export const metadata = {
 	title: "Alugram || Design Agency",
